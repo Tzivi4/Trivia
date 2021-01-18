@@ -26,11 +26,11 @@ const login = () => {
         <p className={styles.heading}>Join Trivia for free!</p>
         <div className={styles.buttons}>
           <button className={styles.button} onClick={handleGithubLogin}>
-            <img className={styles.image} src="/github.png" alt="" />{' '}
-            <span className={styles.text}>Login with Github</span>
+            <img className={styles.image} src="/github.png" alt="" />
+            <span>Login with Github</span>
           </button>
           <button className={styles.button} onClick={handleGoogleLogin}>
-            <img className={styles.image} src="/google.png" alt="" />{' '}
+            <img className={styles.image} src="/google.png" alt="" />
             <span className={styles.text}>Login with Google</span>
           </button>
         </div>

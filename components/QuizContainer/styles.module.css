@@ -1,0 +1,16 @@
+.container {
+  width: 90%;
+  height: 90%;
+  background-color: #228cdb;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    height: 95%;
+  }
+}

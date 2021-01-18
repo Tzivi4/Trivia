@@ -1,0 +1,33 @@
+.container {
+  background-color: #454372;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+}
+
+.heading {
+  border-radius: 10px;
+  background-color: #228cdb;
+  width: 95%;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.title {
+  margin: 0.5rem;
+}
+
+.category {
+  margin: 0.5rem;
+}
+
+.questions {
+  border-radius: 10px;
+  width: 95%;
+  height: 100%;
+  margin: 0 0 1rem 0;
+  background-color: #228cdb;
+}

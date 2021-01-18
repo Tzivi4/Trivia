@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const axiosClient = axios.create({
-  baseURL: process.env.BACKEND_URL,
+  baseURL: "https://beta-trivia.bongo.best",
 })
 
 export default axiosClient

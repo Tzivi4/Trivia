@@ -1,11 +1,11 @@
 import React from 'react'
-import styles from '../styles/index.module.css'
-import QuizContainer from '../components/QuizContainer'
+import styles from './styles.module.css'
+import Categories from '../Categories'
 
 const Index = () => {
   return (
     <div className={styles.container}>
-      <QuizContainer />
+      <Categories />
     </div>
   )
 }
